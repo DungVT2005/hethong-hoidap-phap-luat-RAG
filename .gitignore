@@ -1,0 +1,33 @@
+# Môi trường ảo (Virtual Environment)
+venv/
+.venv/
+env/
+ENV/
+
+# Byte-code / Cache của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Biến môi trường & API Keys (RẤT QUAN TRỌNG - KHÔNG ĐẨY LÊN GITHUB)
+.env
+.env.local
+*.env
+
+# Dữ liệu & Database cục bộ
+chroma_db/
+DB/*.db
+DB/*.sqlite3
+*.db
+*.sqlite3
+
+# IDE / Trình soạn thảo
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File log / tạm
+*.log
+.DS_Store
+
